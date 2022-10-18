@@ -28,6 +28,8 @@ const styles = StyleSheet.create({
     paddingHorizontal:10,
     marginVertical: 5
   },
-  input:{}
+  input:{
+    color: 'gray'
+  }
 })
 export default customInput

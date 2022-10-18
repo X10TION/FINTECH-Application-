@@ -23,7 +23,7 @@ const styles = StyleSheet.create({
        
         width:'100%',
         padding:15,
-        marginVertical:25,
+        marginVertical:15,
         alignItems: 'center',
         borderRadius:5,
 
@@ -35,12 +35,20 @@ const styles = StyleSheet.create({
     container_TERTIARY:{
 
     },
+    container_SECONDARY:{
+      borderColor:'#3b71f3',
+      borderWidth:2,
+
+    },
     text:{
           fontWeight:'bold',
           color:'white'  
     },
     text_TERTIARY:{
       color: 'gray'
+    },
+    text_SECONDARY:{
+      color:'blue'
     }
 })
 export default customButton
